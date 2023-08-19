@@ -1,11 +1,15 @@
 [package]
-name = "pokeapi-types-rs"
+name = "pokeapi-types"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dev-dependencies]
+ts-rs = "7.0.0"
 
 [dependencies]
 serde = { version = "1.0.183", features = ["derive"] }
 serde_json = "1.0.105"
-ts-rs = "7.0.0"
+ts-rs = { version = "7.0.0", optional = true }
+
+[features]
+ts-export = ["ts-rs"]
