@@ -4,7 +4,7 @@ use std::collections::HashMap;
 
 #[derive(Debug, Serialize, Deserialize, TS)]
 #[ts(export)]
-pub struct Manga {
+pub struct Pokemon {
     pub abilities: Vec<Ability>,
     pub base_experience: i64,
     pub forms: Vec<Species>,

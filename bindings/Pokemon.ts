@@ -8,4 +8,4 @@ import type { Sprites } from "./Sprites";
 import type { Stat } from "./Stat";
 import type { Type } from "./Type";
 
-export interface Manga { abilities: Array<Ability>, base_experience: bigint, forms: Array<Species>, game_indices: Array<GameIndex>, height: bigint, held_items: Array<HeldItem>, id: bigint, is_default: boolean, location_area_encounters: string, moves: Array<Move>, name: string, order: bigint, past_types: string[], species: Species, sprites: Sprites, stats: Array<Stat>, types: Array<Type>, weight: bigint, }
+export interface Pokemon { abilities: Array<Ability>, base_experience: bigint, forms: Array<Species>, game_indices: Array<GameIndex>, height: bigint, held_items: Array<HeldItem>, id: bigint, is_default: boolean, location_area_encounters: string, moves: Array<Move>, name: string, order: bigint, past_types: string[], species: Species, sprites: Sprites, stats: Array<Stat>, types: Array<Type>, weight: bigint, }
